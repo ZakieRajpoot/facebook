@@ -1,0 +1,222 @@
+#main{
+	width:1024px;
+	margin:0 auto;
+}
+/*............................header start.............................*/
+#header{
+	width:1024px;
+	height:83px;
+	background:#3a5795;
+}
+#logo{
+	width:350px;
+	height:83px;
+	float:left;
+}
+#logo h1{
+	width:150px;
+	height:50px;
+	color:#FFF;
+	font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+	margin:25px 0px 0px 138px;
+	font-weight:bold;
+	font-size:38px;
+}
+#logo a{
+	text-decoration:none;
+}
+
+#using-pass-email{
+	width:674px;
+	height:90px;
+	float:left;
+}
+#email-area{
+		width:170px;
+		height:60px;
+		float:left;
+		font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+		font-size:12px;
+		margin:16px 0px 0px 206px;
+	}
+	#email-area a{
+		text-decoration:none;
+		color:#FFF;
+	}
+	#email-area span input{
+		width:160px;
+		margin-top:4px;
+	}
+	.checkbox{
+		margin:-2px 0px 0px -77;
+	}
+	#email-area .checkbox a{
+		text-decoration:none;
+		color:#9daccb;
+	}
+#password-area{
+		width:177px;
+		height:60px;
+		float:left;
+		font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+		font-size:12px;
+		margin-top:16px;
+}
+	#password-area a{
+		text-decoration:none;
+		color:#FFF;
+	}
+	
+	#password-area span input{
+		width:160px;
+		margin-top:4px;
+	}
+	#forgot-password{
+		margin-top:4px;
+	}
+	#password-area span a{
+		color:#9daccb;
+	}
+
+	
+#login-area{
+	width:50px;
+	height:21px;
+	float:left;
+	margin:35px 0px 0px -5px;
+}
+#login-area span .button{
+	color:#FFF;
+	background-color:#5b74a8;
+	border-color:#B2B2E5;
+	width:45px;
+	font-weight:bold;
+	font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size:11px;
+	padding-left:4px;
+}
+/*.........................container start................................*/
+#container{
+	width:1024px;
+	background:#edf0f5;
+	height:600px;
+}
+/*..........................content start....................*/
+#content{
+	width:536px;
+	height:500px;
+	float:left;
+	margin-top:-7px;
+}
+/*..............................right start...........................*/
+#right{
+	width:488px;
+	height:500px;
+	float:left;
+	margin-top:-7px;
+}
+	#right h1{
+		font-size:36px;
+		font-weight:bold;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		margin-top:10px;
+	}
+	#right p{
+		width:300px;
+		font-size:18px;
+		margin-top:-20px;
+	}
+#four-span-area{
+	width:488px;
+	height:242px;
+	
+}
+#double-span{
+	width:420px;
+	height:45px;
+	float:left;
+}
+#double-span span input{
+	width:200px;
+	height:45px;
+	border-radius:7px;
+	border-color:#bdc7d8;
+	font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size:18px;
+	border: 1px solid #bdc7d8;
+	padding-left:10px;
+}
+#triple-span span input{
+	width:406px;
+	height:45px;
+	border-radius:5px;
+	margin-top:7px;
+	border-color:#bdc7d8;
+	font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size:18px;
+	border: 1px solid #bdc7d8;
+	padding-left:10px;
+}
+#four-span-area p{
+	margin-top:10px;
+	font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size:21px;
+}
+/*.........................birthday-menu start............................*/
+#birthday-menu{
+	width:215px;
+	height:33px;
+	float:left;
+}
+	#birthday-menu span select{
+		width:65px;
+		height:30px;
+		font-size:13px;
+		padding-left:2px;
+		margin:0px;
+	}
+		
+#birthday-text{
+	font-size:11px;
+	width:272px;
+	height:33px;
+	float:left;
+}
+#birthday-text a{
+	color:#3b5998;
+	text-decoration:none;
+	font-family:'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+#birthday-text a:hover{
+	text-decoration:underline;
+}
+
+#gender-select{
+	width:200px;
+	height:33px;
+	float:left;
+	margin:10px;
+}
+
+#sign-up-button{
+	width:200px;
+	height:50px;
+	float:left;
+	margin:44px 0px 0px -220px
+}
+#sign-up-button span input{
+	width:200px;
+	height:44px;
+	background-color:#69a74e;
+	color:#FFF;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	font-size:19px;
+	font-weight:bold;
+	border-radius:7px;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+}
+#sign-up-button span .btn:hover{
+	color:white;
+	cursor:pointer;
+    background: linear-gradient(#79bc64, #578843);
+}
